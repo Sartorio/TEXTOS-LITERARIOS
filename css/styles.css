@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+/* ---------------------------------------------------------------- HTML -- */
+body {
+	background:#FFF !important;
+	}
+td img{
+	text-align:center !important;
+	}
+/* ---------------------------------------------------------------- PAGINAS -- */
+#header, #footer {
+	position:fixed;
+	border:none;
+	z-index:9;
+	}
+#header {
+	height:80px;
+	top:-2px;
+	background:url(../images/header.png) top repeat-x;
+	}
+#content {
+	padding-top:80px;
+	background:#FFF;
+	padding-bottom:80px;
+	text-align:center;
+	} 
+#footer {
+	bottom:0px;
+	text-align:center;
+	background:url(../images/footer.png) top repeat-x;
+	}
+#content img {
+	width:100%;
+	}
+#content-ciencias img {
+	width:50%;
+	}
+#content-ciencias p img {
+	width:5% !important;
+	}
+/* ---------------------------------------------------------------- BOTONES -- */
+#atras, #adelante {
+	width:69px;
+	height:80px;
+	border:none;
+	top:0px;
+	}
+#atras {
+	left:0px;
+	background:url(../images/f-izq.png) no-repeat;
+	}
+#adelante { 
+	right:0px;
+	background:url(../images/f-der.png) no-repeat;
+	}
